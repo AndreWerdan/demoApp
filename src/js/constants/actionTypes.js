@@ -1,0 +1,28 @@
+// check auth
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const AUTH_ERROR = 'AUTH_ERROR';
+
+// industries
+export const GET_INDUSTRIES = 'GET_INDUSTRIES';
+export const SET_INDUSTRIES = 'SET_INDUSTRIES';
+export const SAVE_FEATURED_COMPANIES = 'SAVE_FEATURED_COMPANIES';
+export const UPDATE_FEATURED_COMPANIES = 'UPDATE_FEATURED_COMPANIES';
+export const DELETE_FEATURED_COMPANIES = 'DELETE_FEATURED_COMPANIES';
+export const GET_INDUSTRIES_BY_ID = 'GET_INDUSTRIES_BY_ID';
+
+// companyInfo
+export const GET_COMPANY_INFO_SUCCESS = 'GET_COMPANY_INFO_SUCCESS';
+export const EDIT_COMPANY_INFO_SUCCESS = 'EDIT_COMPANY_INFO_SUCCESS';
+
+//tellus form
+export const SEND_FORM = 'SEND_FORM';
+export const GO_TO_FORM = 'GO_TO_FORM';
+export const RESET_TELLUS = 'RESET_TELLUS';
+
+// menu
+export const GET_MENU = 'GET_MENU';
+export const UPDATE_MENU = 'UPDATE_MENU';
+
+//leads
+export const GET_FILTERED_LEADS = 'GET_FILTERED_LEADS';
+export const SET_LEADS_FILTER_DATA = 'SET_LEADS_FILTER_DATA';

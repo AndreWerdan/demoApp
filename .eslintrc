@@ -1,0 +1,40 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    // `.jsx` extension cannot be used with React Native
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "no-param-reassign": [
+      2,
+      {
+        "props": false
+      }
+    ],
+    "jsx-a11y/no-static-element-interactions": 0,
+    "no-unused-vars": 0,
+    "no-underscore-dangle": "off",
+    "no-bitwise": [
+      "error",
+      {
+        "allow": ["~"]
+      }
+    ],
+    "no-octal-escape": "off",
+    "no-console": "off",
+    "no-script-url": "off",
+    "no-alert": "off",
+    "react/no-danger": "off",
+    "linebreak-style": 0,
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
